@@ -1,0 +1,117 @@
+{
+  "ratings": [
+    {
+      "discord_id": "1455124014946189326",
+      "username": "defnotsrilankan23",
+      "gamemode": "sword",
+      "tier": "HT1",
+      "rated_by": "defnotsrilankan23",
+      "rated_at": "2026-04-13T13:14:18.438Z",
+      "notes": null
+    }
+  ],
+  "tickets": [
+    {
+      "channel_id": "1493229574539186330",
+      "target_id": "1493217012661354606",
+      "target_name": "CoreTiers",
+      "tester_id": "1455124014946189326",
+      "created_at": "2026-04-13T12:41:13.142Z",
+      "closed": true
+    },
+    {
+      "channel_id": "1493234332968681703",
+      "target_id": "1455124014946189326",
+      "target_name": "defnotsrilankan23",
+      "tester_id": "1455124014946189326",
+      "created_at": "2026-04-13T13:00:07.834Z",
+      "closed": true
+    },
+    {
+      "channel_id": "1493235233905053717",
+      "target_id": "1455124014946189326",
+      "target_name": "defnotsrilankan23",
+      "tester_id": "1455124014946189326",
+      "created_at": "2026-04-13T13:03:42.564Z",
+      "closed": false
+    },
+    {
+      "channel_id": "1493236435610894428",
+      "target_id": "1455124014946189326",
+      "target_name": "defnotsrilankan23",
+      "tester_id": "1455124014946189326",
+      "created_at": "2026-04-13T13:08:28.930Z",
+      "closed": false
+    },
+    {
+      "channel_id": "1493237784469700669",
+      "target_id": "1455124014946189326",
+      "target_name": "defnotsrilankan23",
+      "tester_id": "1455124014946189326",
+      "created_at": "2026-04-13T13:13:50.605Z",
+      "closed": false
+    },
+    {
+      "channel_id": "1493239448887099422",
+      "target_id": "1455124014946189326",
+      "target_name": "defnotsrilankan23",
+      "tester_id": "1455124014946189326",
+      "created_at": "2026-04-13T13:20:27.401Z",
+      "closed": false
+    },
+    {
+      "channel_id": "1493244058028474430",
+      "target_id": "1455124014946189326",
+      "target_name": "defnotsrilankan23",
+      "tester_id": "1455124014946189326",
+      "created_at": "2026-04-13T13:38:46.276Z",
+      "closed": true
+    }
+  ],
+  "queues": {
+    "1493546362686673028": {
+      "gamemode": "sword",
+      "pinnedMessageId": "1493567410437885953",
+      "players": [
+        {
+          "id": "1455124014946189326",
+          "username": "defnotsrilankan23",
+          "joinedAt": "2026-04-14T11:03:15.521Z"
+        }
+      ]
+    },
+    "1493546439803146260": {
+      "gamemode": "nethpot",
+      "pinnedMessageId": "1493573071620145282",
+      "players": []
+    },
+    "1493546516512509982": {
+      "gamemode": "uhc",
+      "pinnedMessageId": "1493573130604777596",
+      "players": []
+    },
+    "1493546709672919100": {
+      "gamemode": "mace",
+      "pinnedMessageId": "1493573244068823081",
+      "players": []
+    },
+    "1493546771564204092": {
+      "gamemode": "pot",
+      "pinnedMessageId": "1493573352151842887",
+      "players": []
+    },
+    "1493546913474150480": {
+      "gamemode": "crystal",
+      "pinnedMessageId": "1493573394858246249",
+      "players": []
+    },
+    "1493548163858956339": {
+      "gamemode": "smp",
+      "pinnedMessageId": "1493573449497579635",
+      "players": []
+    }
+  },
+  "testers": {
+    "1493546362686673028": []
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CoreTiers — MC PvP Rankings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="noise"></div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="logo" href="#">
+        <span class="logo-core">CORE</span><span class="logo-tiers">TIERS</span>
+      </a>
+      <div class="nav-center">
+        <a href="#rankings" class="nav-link">Rankings</a>
+      </div>
+      <div class="search-bar">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="searchInput" placeholder="Search player..." autocomplete="off"/>
+        <kbd>/</kbd>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Minecraft PvP Community</p>
+      <h1 class="hero-title">RANKINGS</h1>
+      <p class="hero-sub">Official competitive tierlist — updated live from test results</p>
+      <div class="hero-stats" id="heroStats">
+        <div class="stat"><span class="stat-num" id="statPlayers">—</span><span class="stat-label">Players</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num" id="statRatings">—</span><span class="stat-label">Ratings</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num" id="statModes">7</span><span class="stat-label">Gamemodes</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="rankings" id="rankings">
+    <div class="tabs-scroll">
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-mode="overall">
+          <img src="assets/overall.svg" class="tab-img" onerror="this.style.display='none'"/> Overall
+        </button>
+        <button class="tab" data-mode="sword">
+          <img src="assets/sword.svg" class="tab-img" onerror="this.style.display='none'"/> Sword
+        </button>
+        <button class="tab" data-mode="mace">
+          <img src="assets/mace.svg" class="tab-img" onerror="this.style.display='none'"/> Mace
+        </button>
+        <button class="tab" data-mode="pot">
+          <img src="assets/pot.svg" class="tab-img" onerror="this.style.display='none'"/> Pot
+        </button>
+        <button class="tab" data-mode="uhc">
+          <img src="assets/uhc.svg" class="tab-img" onerror="this.style.display='none'"/> UHC
+        </button>
+        <button class="tab" data-mode="crystal">
+          <img src="assets/crystal.svg" class="tab-img" onerror="this.style.display='none'"/> Crystal
+        </button>
+        <button class="tab" data-mode="smp">
+          <img src="assets/smp.svg" class="tab-img" onerror="this.style.display='none'"/> SMP
+        </button>
+        <button class="tab" data-mode="axe">
+          <img src="assets/axe.svg" class="tab-img" onerror="this.style.display='none'"/> Axe
+        </button>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <div class="table-head">
+        <span class="th-rank">#</span>
+        <span class="th-player">Player</span>
+        <span class="th-region">Region</span>
+        <span class="th-points">Points</span>
+        <span class="th-tiers">Tiers</span>
+      </div>
+      <div id="tableBody"><div class="loading">Loading rankings</div></div>
+    </div>
+  </section>
+
+  <!-- Player Modal -->
+  <div class="modal-bg" id="modalBg">
+    <div class="modal" id="modal">
+      <button class="modal-x" id="modalX">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    CoreTiers &mdash; Minecraft PvP Rankings &mdash; Live data from bot
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
